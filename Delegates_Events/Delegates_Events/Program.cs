@@ -8,6 +8,8 @@ namespace Delegates_Events
         {
             DelegateDemo delegateDemo = new DelegateDemo();
             delegateDemo.Run();
+            MultiCastDelegate multiCastDelegate = new MultiCastDelegate();
+            multiCastDelegate.Run();
         }
     }
 }
